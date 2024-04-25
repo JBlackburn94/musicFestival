@@ -1,5 +1,5 @@
-import "./hero.css";
 import heroVideo from "../../assets/hero.mp4";
+import "./hero.css";
 
 export default function Hero() {
   return (
@@ -18,8 +18,12 @@ export default function Hero() {
           Your browser does not support the video tag.
         </video>
 
-        <h2 className="relative w-1/4 text-5xl font-bold md:text-6xl text-bright-turquoise-400 right-10 lg:right-16">
-          Get <br /> VIP <br /> Tickets <br /> Now.
+        <h2
+          className="relative w-1/4 text-5xl md:text-6xl right-10 text-bright-turquoise-100 lg:right-16"
+          id="sub-text"
+        >
+          Get <br /> <span className="text-bright-turquoise-400">VIP</span>{" "}
+          <br /> Tickets <br /> Now.
         </h2>
       </div>
     </section>

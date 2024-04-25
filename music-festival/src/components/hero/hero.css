@@ -1,3 +1,5 @@
-/* .hero-span {
-    background: url(../../assets/samuel-regan-asante-3BcNKoySAq0-unsplash.webp);
-} */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+#sub-text {
+    font-family: 'Shrikhand', cursive;
+}
