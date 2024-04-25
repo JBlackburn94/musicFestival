@@ -13,7 +13,7 @@ export default function Hero() {
         </h2>
       </div>
       <div className="flex items-center justify-center w-full mt-10 lg:mt-0 lg:w-1/2">
-        <video muted autoPlay loop className="w-1/2 mr-4 md:w-1/4">
+        <video muted autoPlay loop className="w-1/2 mr-4 md:w-[25%] lg:w-[40%]">
           <source src={heroVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
