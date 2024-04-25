@@ -67,7 +67,7 @@ export default function Nav() {
               <a
                 key={item.id}
                 href={item.link}
-                className="my-4 text-bright-turquoise-950"
+                className="my-4 tracking-widest text-bright-turquoise-950"
               >
                 {item.title}
               </a>
