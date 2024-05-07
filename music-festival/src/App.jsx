@@ -1,11 +1,13 @@
 import "./App.css";
-import Hero from "./components/hero/Hero";
-import Banner from "./components/banner/Banner";
+import HeaderMarquee from "./components/headerMarquee/HeaderMarquee";
+import Navbar from "./components/navbar/Navbar";
+import Hero from "./pages/hero/Hero";
 
 function App() {
   return (
     <>
-      <Banner />
+      <Navbar />
+      <HeaderMarquee />
       <Hero />
     </>
   );
