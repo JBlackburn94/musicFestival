@@ -74,6 +74,7 @@ export default function Hero() {
             autoPlay
             loop
             muted
+            playsInline
           >
             <source src={heroVid} />
           </video>
