@@ -13,17 +13,17 @@ export default function LineUp() {
     gsap.from(containerLeft.current, {
       opacity: 0,
       x: "-100%",
+      borderTopRightRadius: "100%",
       scrollTrigger: {
         trigger: containerLeft.current,
-        start: "5% 95%",
-        end: "10% 70%",
+        start: "50% 95%",
+        end: "70% 80%",
         scrub: 1,
-        markers: true,
+        marekers: true,
       },
     });
     gsap.from(heading.current, {
       opacity: 0,
-      x: "100%",
       scrollTrigger: {
         trigger: containerLeft.current,
         start: "5% 90%",
@@ -37,7 +37,7 @@ export default function LineUp() {
     <section className="flex flex-col h-screen overflow-x-hidden">
       <div
         ref={containerLeft}
-        className="h-full w-1/2 rounded-br-full relative bg-[#75D8FF]"
+        className="h-full w-screen relative bg-[#75D8FF]"
       ></div>
       <div
         ref={heading}
@@ -47,7 +47,7 @@ export default function LineUp() {
         <img
           src={lineUp}
           alt="A fictional line up poster for MFE"
-          className="min-w-[400px] w-1/4 mt-10 lg:w-1/2"
+          className="min-w-[400px] w-1/4 mt-10 lg:w-[500px] max-h-[500px]"
         />
       </div>
     </section>
