@@ -15,9 +15,10 @@ export default function LineUp() {
       x: "-100%",
       scrollTrigger: {
         trigger: containerLeft.current,
-        start: "60% 90%",
-        end: "60% 60%",
+        start: "5% 95%",
+        end: "10% 70%",
         scrub: 1,
+        markers: true,
       },
     });
     gsap.from(heading.current, {
@@ -25,8 +26,8 @@ export default function LineUp() {
       x: "100%",
       scrollTrigger: {
         trigger: containerLeft.current,
-        start: "60% 90%",
-        end: "60% 60%",
+        start: "5% 90%",
+        end: "15% 70%",
         scrub: 1,
       },
     });
